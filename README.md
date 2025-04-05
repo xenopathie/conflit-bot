@@ -52,7 +52,7 @@ Clone ce dépôt :
 
 # Crée un fichier .env :
 
-DISCORD_TOKEN=ton_token_secret
+    DISCORD_TOKEN=ton_token_secret
 
 # Lance le bot :
 
