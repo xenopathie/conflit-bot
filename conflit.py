@@ -13,7 +13,10 @@ token = os.getenv('DISCORD_TOKEN')
 def load_data():
     try:
         with open('data.json', 'r') as f:
-            return json.load(f)
+            content = f.read().strip()
+            if not content:
+                return {'moderators_roles': [], 'whitelist': [], 'owners': [], 'infractions': {}}
+            return json.loads(content)
     except FileNotFoundError:
         return {'moderators_roles': [], 'whitelist': [], 'owners': [], 'infractions': {}}
 
