@@ -47,7 +47,7 @@ DISCORD_TOKEN=ton_token_ici
 
 Clone ce dépôt :
 
-git clone https://github.com/tonpseudo/discord-bot-modération.git
+git clone https://github.com/xenopathie/conflit-bot
 cd discord-bot-modération
 
 Installe les dépendances :
