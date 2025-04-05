@@ -30,8 +30,6 @@ Les utilisateurs ajoutés ne sont pas affectés par la modération automatique.
 
 Affiche dans un salon #logs quand un utilisateur est mis en timeout.
 
-Serveur Flask léger pour maintenir le bot actif sur Replit ou d'autres plateformes.
-
 # 📦 Prérequis
 Python 3.8+
 
